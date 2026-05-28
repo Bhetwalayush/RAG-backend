@@ -4,7 +4,7 @@ from app.api.ingestion import router as ingestion_router
 from app.api.chat import router as chat_router
 
 from app.db.database import engine
-from app.db.models import Base
+from app.models.models import Base
 
 Base.metadata.create_all(bind=engine)
 

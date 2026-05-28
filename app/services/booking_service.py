@@ -2,7 +2,7 @@ import json
 import re
 from sqlalchemy.orm import Session
 
-from app.db.models import Booking
+from app.models.models import Booking
 from app.prompts.booking_prompt import BOOKING_PROMPT
 from app.services.gemini_service import ask_gemini
 
