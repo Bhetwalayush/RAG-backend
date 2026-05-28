@@ -1,0 +1,5 @@
+COLLECTION_NAME = "rag_documents"
+
+EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+
+TOP_K_RESULTS = 3
